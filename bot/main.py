@@ -18,3 +18,4 @@ async def Kredo(ctx, number: int, *args):
     else:
         await ctx.send('**Только деду Хосту и владыке Kredo позволено пользоваться этой командой!** (*И моему '
                        'создателю*)')
+bot.run(settings['token'])
